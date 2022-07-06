@@ -1,0 +1,16 @@
+
+<img [src]="imagerUrl"/>
+<br/>
+<br/>
+
+<input type="text" value="{{name}}" /> <br/> <br/>
+<br/> <br/>
+
+<!-- In property binding the html attribute must be placed inside a square bracket -->
+
+<input type="text" [value]="name" disabled="{{isDisabled}}"/>
+
+<br/> <br/>
+
+<input type="text" [value]="name" [disabled]="isDisabled"/>
+

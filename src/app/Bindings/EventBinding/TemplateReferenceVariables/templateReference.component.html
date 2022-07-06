@@ -1,0 +1,9 @@
+<h3>Temeplate Reference Event Binding</h3>
+<br/>
+<br/>
+
+<input #message type="text" /><br/><br/>
+<button (click)="logMessage(message.value)">Pass Value to component</button>
+<br/><br/>
+
+<button (click)="logMessageWithReference(message)">Pass reference to component</button>
